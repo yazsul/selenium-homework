@@ -17,7 +17,6 @@ public class BasePageTest {
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--start-maximized");
         options.addArguments("--incognito");
-        options.addArguments("--download.default_directory=src\\test\\resources\\");
 
         driver = new ChromeDriver(options);
     }
